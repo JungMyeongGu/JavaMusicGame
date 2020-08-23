@@ -1,0 +1,17 @@
+package dynamic_beat_3;
+
+import java.io.File;
+import java.io.FileInputStream;
+
+import javazoom.jl.player.Player;
+
+public class Music extends Thread {
+
+	private Player player;
+	private boolean isLoop; //무한 루프인지 한번 돌아가고 꺼지는지 설정하는 것.
+	private File file;
+	private FileInputStream fis;
+	private BufferInputStream bis;
+	
+	
+}
